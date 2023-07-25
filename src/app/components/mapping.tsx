@@ -1,6 +1,6 @@
 import { Content } from "../../../data/content";
-import user, { User } from "../../../data/user-data";
-import UserComponent from "./userComponent";
+import user, { User } from "../../../data/book-data";
+import BookComponent from "./bookComponent";
 
 interface MappingProps {
   users: User[],
@@ -8,10 +8,10 @@ interface MappingProps {
 
 const Mapping: React.FC<MappingProps> = ({ users }) => {
   return (
-    <section className="bg-slate-800 gap-10">
+    <section className="Mapping flex flex-wrap">
       {
         users.map((usr, index) => (
-          <UserComponent key={index} name={usr.name} childs={usr.childs} />
+          <BookComponent key={index} name={usr.name} childs={usr.childs} />
         ))
       }
     </section>

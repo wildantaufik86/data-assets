@@ -9,13 +9,25 @@ const user: User[] = [
   {
     name: 'MY BOOK',
     childs: [
-      dummyContent.penerimaan
+      dummyContent.book1
     ]
   },
   {
-    name: 'MY WORLD',
+    name: 'MY BOOK',
     childs: [
-      dummyContent.pengeluran
+      dummyContent.book2
+    ]
+  },
+  {
+    name: 'MY BOOK',
+    childs: [
+      dummyContent.book3
+    ]
+  },
+  {
+    name: 'MY BOOK',
+    childs: [
+      dummyContent.book4
     ]
   },
 ]
