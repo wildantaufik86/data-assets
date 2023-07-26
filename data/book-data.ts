@@ -30,6 +30,12 @@ const user: User[] = [
       dummyContent.book4
     ]
   },
+  {
+    name: 'MY BOOK',
+    childs: [
+      dummyContent.book5
+    ]
+  },
 ]
 
 export default user;
